@@ -31,7 +31,7 @@
 ## 🛠️ Para desarrolladores
 
 ```bash
-git clone https://github.com/<usuario>/<repositorio>.git
+git clone https://github.com/ASabinoAcosta/Zproduct.git
 ```
 
 Abre la solución en Visual Studio con .NET 10 y ejecútala.
