@@ -9,7 +9,7 @@ namespace Zproduct.Data
     public static class Database
     {
         // Cambia la contraseña por la de tu instalación de PostgreSQL
-        private const string Servidor = "Host=localhost;Port=5432;Username=postgres;Password=Anaysara1118";
+        public static string Servidor => ConfigService.BuildConnectionString(ConfigService.Current);
         private const string NombreBd = "pos";
 
         public static string ConnectionString => $"{Servidor};Database={NombreBd}";
